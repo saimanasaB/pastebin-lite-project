@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# pastebin-lite-project
+Project Name: Pastebin Lite
+
+Tech Stack: Next.js 16, Upstash Redis, TypeScript
+
+Features: Paste creation, expiry, limited views
+
+To run:
+npm install
+npm run dev
+
+
+Environment variables:
+
+REDIS_URL=<your_redis_rest_url>
+REDIS_TOKEN=<your_redis_token>
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+>>>>>>> 91068374ba9c0c90083182bd69ce5dc924948d33
